@@ -35,7 +35,7 @@ SETUP and ACCESS and between cycles in the ACCESS state
 ![image](https://github.com/user-attachments/assets/1ca0f5fe-b66b-4267-9a4d-f47be6238ea4)
 
  #### MASTER READ OPERATION
-![image](https://github.com/user-attachments/assets/0b586623-e3cd-4a30-8115-9b33804dc0d6)
+![image](https://github.com/user-attachments/assets/5cf9a405-0a00-4ba2-af15-cefc9a6d9ea5)
 
 
 > ## RTL SCHEMATIC :
@@ -45,6 +45,9 @@ SETUP and ACCESS and between cycles in the ACCESS state
 ![image](https://github.com/user-attachments/assets/f030e7a3-a182-44ba-b86c-1322372b827b)
 
 > ##  TIMING REPORT:
+![image](https://github.com/user-attachments/assets/869f6e7e-7cda-4f25-ad7c-f5e5cecae9d5)
+
+> ## constrains:
 ![image](https://github.com/user-attachments/assets/244e8071-99cd-474d-ac92-47606db3f04e)
 
 > ##  UTILLIZATION REPORT:
