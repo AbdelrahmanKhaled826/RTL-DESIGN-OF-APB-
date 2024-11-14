@@ -1,4 +1,4 @@
-#RTL DESIGN OF ABP
+![image](https://github.com/user-attachments/assets/6534c97f-8f4c-4f6e-a014-e48ec4ce87fd)#RTL DESIGN OF ABP
 
 ➢ The APB (Advanced Peripheral Bus) protocol is a low-cost interface, optimized for minimal power consumption and reduced interface complexity. 
 
@@ -29,6 +29,45 @@ rising edge of the clock.
 
  ➢ ACCESS The enable signal, PENABLE is asserted in the ACCESS state. The signal must not change in the transition between 
 SETUP and ACCESS and between cycles in the ACCESS state
+
+> ## SIMULATIONS:
+> # MASTER WRITE OPERATION
+
+![image](https://github.com/user-attachments/assets/1ca0f5fe-b66b-4267-9a4d-f47be6238ea4)
+
+> # MASTER READ OPERATION
+
+![image](https://github.com/user-attachments/assets/0b586623-e3cd-4a30-8115-9b33804dc0d6)
+
+> ## RTL SCHEMATIC :
+
+![image](https://github.com/user-attachments/assets/f243dcdb-44b1-44e0-90ba-f81d9ca14cbb)
+
+> ## RTL IMPLEMENTATION:
+
+![image](https://github.com/user-attachments/assets/f030e7a3-a182-44ba-b86c-1322372b827b)
+
+> ##  TIMING REPORT:
+
+![image](https://github.com/user-attachments/assets/244e8071-99cd-474d-ac92-47606db3f04e)
+
+> [!NOTE]
+> > ####constrains :
+> >  ####create_clock -period 10.000 -name APBclk [get_ports APBclk]
+> > ####set_property PACKAGE_PIN F15 [get_ports APBclk]
+
+> ##  UTILLIZATION REPORT:
+
+![image](https://github.com/user-attachments/assets/dfa916a0-1e53-49c2-be2d-38f1ecf5a53c)
+
+
+> ##  POWER REPORT:
+![image](https://github.com/user-attachments/assets/a2110a14-6795-49d0-ad73-7bf797756d12)
+
+![image](https://github.com/user-attachments/assets/22f6fb8f-8fa5-4719-bded-ff803ff2f19d)
+
+
+
 
 
 
