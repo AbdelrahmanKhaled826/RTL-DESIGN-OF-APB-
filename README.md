@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/6534c97f-8f4c-4f6e-a014-e48ec4ce87fd)#RTL DESIGN OF ABP
+#RTL DESIGN OF ABP
 
 ➢ The APB (Advanced Peripheral Bus) protocol is a low-cost interface, optimized for minimal power consumption and reduced interface complexity. 
 
@@ -31,11 +31,11 @@ rising edge of the clock.
 SETUP and ACCESS and between cycles in the ACCESS state
 
 > ## SIMULATIONS:
-> # MASTER WRITE OPERATION
+> #### MASTER WRITE OPERATION
 
 ![image](https://github.com/user-attachments/assets/1ca0f5fe-b66b-4267-9a4d-f47be6238ea4)
 
-> # MASTER READ OPERATION
+> #### MASTER READ OPERATION
 
 ![image](https://github.com/user-attachments/assets/0b586623-e3cd-4a30-8115-9b33804dc0d6)
 
@@ -50,11 +50,6 @@ SETUP and ACCESS and between cycles in the ACCESS state
 > ##  TIMING REPORT:
 
 ![image](https://github.com/user-attachments/assets/244e8071-99cd-474d-ac92-47606db3f04e)
-
-> [!NOTE]
-> > ####constrains :
-> >  ####create_clock -period 10.000 -name APBclk [get_ports APBclk]
-> > ####set_property PACKAGE_PIN F15 [get_ports APBclk]
 
 > ##  UTILLIZATION REPORT:
 
