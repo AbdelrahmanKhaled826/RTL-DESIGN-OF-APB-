@@ -31,24 +31,20 @@ rising edge of the clock.
 SETUP and ACCESS and between cycles in the ACCESS state
 
 > ## SIMULATIONS:
-> #### MASTER WRITE OPERATION
-
+#### MASTER WRITE OPERATION
 ![image](https://github.com/user-attachments/assets/1ca0f5fe-b66b-4267-9a4d-f47be6238ea4)
 
-> #### MASTER READ OPERATION
-
+ #### MASTER READ OPERATION
 ![image](https://github.com/user-attachments/assets/0b586623-e3cd-4a30-8115-9b33804dc0d6)
 
-> ## RTL SCHEMATIC :
 
+> ## RTL SCHEMATIC :
 ![image](https://github.com/user-attachments/assets/f243dcdb-44b1-44e0-90ba-f81d9ca14cbb)
 
 > ## RTL IMPLEMENTATION:
-
 ![image](https://github.com/user-attachments/assets/f030e7a3-a182-44ba-b86c-1322372b827b)
 
 > ##  TIMING REPORT:
-
 ![image](https://github.com/user-attachments/assets/244e8071-99cd-474d-ac92-47606db3f04e)
 
 > ##  UTILLIZATION REPORT:
